@@ -6,6 +6,18 @@ class Function:
     def __call__(self, expression):
         pass
 
+class Primitive:
+    """
+    These are things which are axiomatically
+    existant objects
+    """
+    def __init__(self, name):
+        self.name = name
+
+class Abstraction:
+    def __init__(self):
+        pass
+
 class Term:
     def __init__(self):
         self.tree
